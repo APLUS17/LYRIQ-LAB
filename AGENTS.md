@@ -1,69 +1,146 @@
-# Agent Instructions
+# Lyriq Lab — Agent Instructions (Jules / OpenAI Codex / Any Agent)
 
-> This file is mirrored across CLAUDE.md, AGENTS.md, and GEMINI.md so the same instructions load in any AI environment.
+> Auto-loaded by Jules and OpenAI-compatible agents. Claude reads CLAUDE.md instead.
+> All three files describe the same system — this one is optimized for agents that work via GitHub PRs.
 
-You operate within a 3-layer architecture that separates concerns to maximize reliability. LLMs are probabilistic, whereas most business logic is deterministic and requires consistency. This system fixes that mismatch.
+---
 
-## The 3-Layer Architecture
+## Mission
 
-**Layer 1: Directive (What to do)**
-- Basically just SOPs written in Markdown, live in `directives/`
-- Define the goals, inputs, tools/scripts to use, outputs, and edge cases
-- Natural language instructions, like you'd give a mid-level employee
+You are running an autonomous songwriting R&D engine. Your job is to execute one iteration of a Karpathy-style optimization loop that scores lyric experiments and improves the active instruction set (the Genome) over time.
 
-**Layer 2: Orchestration (Decision making)**
-- This is you. Your job: intelligent routing.
-- Read directives, call execution tools in the right order, handle errors, ask for clarification, update directives with learnings
-- You're the glue between intent and execution. E.g you don't try scraping websites yourself—you read `directives/scrape_website.md` and come up with inputs/outputs and then run `execution/scrape_single_site.py`
+**One loop = one PR.**
 
-**Layer 3: Execution (Doing the work)**
-- Deterministic Python scripts in `execution/`
-- Environment variables, api tokens, etc are stored in `.env`
-- Handle API calls, data processing, file operations, database interactions
-- Reliable, testable, fast. Use scripts instead of manual work.
+---
 
-**Why this works:** if you do everything yourself, errors compound. 90% accuracy per step = 59% success over 5 steps. The solution is push complexity into deterministic code. That way you just focus on decision-making.
+## Repository Map
 
-## Operating Principles
+| Path | Purpose |
+|---|---|
+| `Methods/` | 7 SOPs — read these before generating anything |
+| `Experiments/EXP-NNN/` | One folder per loop: draft_a.md, draft_b.md, draft_c.md, scores.md |
+| `Genome/current_prompt.ts` | The active instruction set. Mutate this if score improves. |
+| `Benchmarks/rubric.md` | Scoring guide — 4 dimensions with anchor examples |
+| `results.tsv` | Persistent score log. Append only — never delete rows. |
 
-**1. Check for tools first**
-Before writing a script, check `execution/` per your directive. Only create new scripts if none exist.
+---
 
-**2. Self-anneal when things break**
-- Read error message and stack trace
-- Fix the script and test it again (unless it uses paid tokens/credits/etc—in which case you check w user first)
-- Update the directive with what you learned (API limits, timing, edge cases)
-- Example: you hit an API rate limit → you then look into API → find a batch endpoint that would fix → rewrite script to accommodate → test → update directive.
+## The 4 Agents (You Play All 4)
 
-**3. Update directives as you learn**
-Directives are living documents. When you discover API constraints, better approaches, common errors, or timing expectations—update the directive. But don't create or overwrite directives without asking unless explicitly told to. Directives are your instruction set and must be preserved (and improved upon over time, not extemporaneously used and then discarded).
+| Agent | Role |
+|---|---|
+| **Researcher** | Reads `results.tsv` + `Genome/current_prompt.ts`. Finds lowest-scoring dimension. Proposes one hypothesis. |
+| **Lyricist** | Generates 3 raw song drafts using the Spark Engine SOP. No editing during generation. |
+| **Architect** | Applies the 4C Framework (Copy → Cut → Carve → Connect) to the best raw draft. |
+| **Critic** | Scores all 3 drafts on 4 dimensions. Logs to `results.tsv`. |
 
-## Self-annealing loop
+---
 
-Errors are learning opportunities. When something breaks:
-1. Fix it
-2. Update the tool
-3. Test tool, make sure it works
-4. Update directive to include new flow
-5. System is now stronger
+## The 6-Step Loop
 
-## File Organization
+```
+1. ANALYZE      Read results.tsv. Find the dimension with the lowest average score.
+                If results.tsv has only the header row: this is the first run — use BASELINE hypothesis.
 
-**Deliverables vs Intermediates:**
-- **Deliverables**: Google Sheets, Google Slides, or other cloud-based outputs that the user can access
-- **Intermediates**: Temporary files needed during processing
+2. HYPOTHESIZE  Propose ONE targeted change to Genome/current_prompt.ts.
+                Format: "Adding [X] will improve [Dimension] because [reason]."
 
-**Directory structure:**
-- `.tmp/` - All intermediate files (dossiers, scraped data, temp exports). Never commit, always regenerated.
-- `execution/` - Python scripts (the deterministic tools)
-- `directives/` - SOPs in Markdown (the instruction set)
-- `.env` - Environment variables and API keys
-- `credentials.json`, `token.json` - Google OAuth credentials (required files, in `.gitignore`)
+3. MUTATE       Apply the change. Increment the version field (patch bump: 0.1.0 → 0.1.1).
 
-**Key principle:** Local files are only for processing. Deliverables live in cloud services (Google Sheets, Slides, etc.) where the user can access them. Everything in `.tmp/` can be deleted and regenerated.
+4. EXPERIMENT   Write 3 drafts to /Experiments/EXP-{NNN}/ using the Spark Engine SOP.
+                Files: draft_a.md (raw), draft_b.md (4C pass), draft_c.md (alternative angle)
 
-## Summary
+5. JUDGE        Score each draft using the rubric below.
+                Run score = average of the 3 draft scores.
+                Append one row per draft to results.tsv.
 
-You sit between human intent (directives) and deterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
+6. EVOLVE       If run_score > baseline_score in Genome/current_prompt.ts:
+                  → Update baseline_score in Genome/current_prompt.ts
+                  → Commit: "AutoResearch: [SOP] — [Hypothesis] (score: X.XX)"
+                If run_score <= baseline_score:
+                  → Revert Genome/current_prompt.ts to previous version
+                  → Log "REVERTED" in Notes column of results.tsv
+```
 
-Be pragmatic. Be reliable. Self-anneal.
+---
+
+## Scoring Rubric
+
+| Dimension | Weight | What to measure |
+|---|---|---|
+| Imagery | 30% | Specific, sensory, non-cliché language |
+| Flow | 25% | Syllable consistency, natural spoken stress |
+| Hook strength | 25% | Memorable, singable, emotionally resonant |
+| Structural coherence | 20% | Clear verse/pre-chorus/chorus arc; 4C applied |
+
+`Score = (Imagery×0.30) + (Flow×0.25) + (Hook×0.25) + (Structure×0.20)`
+
+Scores are 0.0–1.0. See `Benchmarks/rubric.md` for anchor examples.
+
+---
+
+## Experiment File Format
+
+```
+EXP-NNN/
+  draft_a.md    ← raw Lyricist output (no editing)
+  draft_b.md    ← post-Architect 4C pass
+  draft_c.md    ← alternative direction (different angle or method)
+  scores.md     ← Critic's breakdown
+```
+
+`scores.md` format:
+```md
+## EXP-NNN Scores
+**Hypothesis:** [text]
+**SOP:** [module name]
+**Version:** [Genome version]
+
+| Draft | Imagery | Flow | Hook | Structure | Score |
+|---|---|---|---|---|---|
+| A | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| B | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+| C | 0.0 | 0.0 | 0.0 | 0.0 | 0.00 |
+
+**Run Score (avg):** 0.00
+**Decision:** KEEP / REVERT
+```
+
+---
+
+## results.tsv Format
+
+```
+Timestamp	SOP	Version	Hypothesis	Imagery	Flow	Hook	Structure	Score	Notes
+```
+
+Append one row per draft. ISO 8601 timestamp. Tab-separated.
+
+---
+
+## Git Convention
+
+- Commit format: `AutoResearch: [SOP] — [Hypothesis] (score: X.XX)`
+- First run: `Bootstrap: EXP-001 baseline established (score: X.XX)`
+- Revert: `git checkout Genome/current_prompt.ts`
+- Never commit PDFs (in .gitignore)
+
+---
+
+## How to Invoke (Jules via GitHub)
+
+1. Go to `https://github.com/APLUS17/LYRIQ-LAB/issues`
+2. Create a new issue titled: `AutoResearch: Run EXP-NNN`
+3. Body: `Run the next AutoResearch loop. Read results.tsv to determine the hypothesis target. Follow AGENTS.md.`
+4. Assign to Jules
+5. Jules will create a branch, run the loop, and open a PR
+6. Review the PR — check `Experiments/EXP-NNN/scores.md` and `results.tsv` before merging
+
+---
+
+## Current State
+
+- Baseline score: **0.70** (established EXP-001)
+- Lowest dimension from EXP-001: **Flow (avg 0.66)**
+- Queued hypothesis: *Adding an explicit chorus syllable target of 8 ±1 per line will improve Flow because the current constraint allows too much variance.*
+- Next experiment: **EXP-002**
