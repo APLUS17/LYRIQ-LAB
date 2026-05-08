@@ -1,1 +1,4 @@
 Timestamp	SOP	Version	Hypothesis	Imagery	Flow	Hook	Structure	Score	Notes
+2026-05-08T00:00:00Z	02_The_Spark_Engine	0.1.0	BASELINE — establishing first score	0.65	0.55	0.58	0.60	0.60	Draft A — Stream of Consciousness raw output
+2026-05-08T00:00:00Z	02_The_Spark_Engine	0.1.0	BASELINE — establishing first score	0.75	0.70	0.72	0.73	0.73	Draft B — 4C pass on Draft A
+2026-05-08T00:00:00Z	02_The_Spark_Engine	0.1.0	BASELINE — establishing first score	0.78	0.74	0.80	0.76	0.77	Draft C — Angle Shaping (Title First, POV flip); run_score=0.70

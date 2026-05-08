@@ -1,7 +1,7 @@
 export const GENOME = {
   version: "0.1.0",
-  baseline_score: 0.0,
-  active_hypothesis: "BASELINE — no hypothesis applied",
+  baseline_score: 0.70,
+  active_hypothesis: "BASELINE — established EXP-001 (2026-05-08)",
 
   instructions: {
     spark_engine: `
