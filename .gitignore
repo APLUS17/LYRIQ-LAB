@@ -4,3 +4,6 @@ dist/
 *.DS_Store
 .env
 *.log
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
