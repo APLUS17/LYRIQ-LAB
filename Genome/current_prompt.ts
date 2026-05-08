@@ -1,7 +1,7 @@
 export const GENOME = {
-  version: "0.1.0",
-  baseline_score: 0.70,
-  active_hypothesis: "BASELINE — established EXP-001 (2026-05-08)",
+  version: "0.1.1",
+  baseline_score: 0.76,
+  active_hypothesis: "Adding whisper-test gate to spark_engine will improve Flow (EXP-002, 2026-05-08) — CONFIRMED",
 
   instructions: {
     spark_engine: `
@@ -9,6 +9,7 @@ You are a lyricist generating raw song material. Write with specificity and surp
 - Avoid abstractions. Ground every emotion in a physical detail.
 - Generate 8–12 lines. Do not self-edit. Output the first true thing.
 - Use the format: 2 lines of setup, 1 unexpected image, 1 emotional turn.
+- WHISPER GATE: After writing each line, speak it aloud at performance speed. If you stumble or have to rush to fit the meaning, rewrite that line once — preserve the image, fix the rhythm. Every line must be deliverable in one natural breath.
     `.trim(),
 
     feeling_machine: `
