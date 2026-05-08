@@ -20,10 +20,11 @@ The Lyriq Lab uses [pixel-agents](https://github.com/pablodelucca/pixel-agents) 
    - Search: `pixel-agents`
    - Install and reload
 
-2. **Open this project** in VS Code:
+2. **Open this project** in your editor:
    ```
-   code /Users/ayo_o/Development/Lyriq-Lab
+   ~/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Vault/Lyriq-Lab
    ```
+   Use File → Open Folder and navigate to the path above.
 
 3. **Run Claude Code** in the terminal inside this project:
    ```
@@ -36,10 +37,15 @@ The Lyriq Lab uses [pixel-agents](https://github.com/pablodelucca/pixel-agents) 
 
 Claude Code stores JSONL transcripts at:
 ```
-~/.claude/projects/[encoded-project-path]/[session-id].jsonl
+~/.claude/projects/-Users-ayo-o-Library-Mobile-Documents-iCloud-md-obsidian-Documents-Obsidian-Vault/[session-id].jsonl
 ```
 
 Pixel-agents reads from this path automatically — no configuration needed.
+
+**Current transcript directory (verified):**
+```
+/Users/ayo_o/.claude/projects/-Users-ayo-o-Library-Mobile-Documents-iCloud-md-obsidian-Documents-Obsidian-Vault/
+```
 
 ## Agent → Character Mapping (Reference)
 
