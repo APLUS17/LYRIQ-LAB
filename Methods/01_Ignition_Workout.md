@@ -1,51 +1,60 @@
 # 01 — Ignition Workout
 
-**Status:** AWAITING PDF UPLOAD
-**Purpose:** Daily warmup drills that clear creative resistance and prime generative flow before any session.
+**Status:** ACTIVE
+**Source:** Creative Foundations Vol.2 — Sound + Creativity (Hermes) · SongwriterCore 100 Songstarter Prompts
+**Purpose:** Daily warmup drills that clear creative resistance and build momentum before any session. No output from this phase gets scored — the goal is to get moving.
 
 ---
 
 ## Key Concepts
 
-> *To be populated from source PDF.*
+- **Inspiration is unreliable.** Creativity must be designed, not waited for.
+- **Speed is the unlock.** "Speed is absolutely key to creativity. The more time it takes to create something, the less likely you are to create something." — Patrick Stump
+- **Small actions compound.** Every small session builds the habit that makes future sessions easier.
+- The problem is never the artist — it's the absence of a system.
 
 ---
 
 ## Core Technique
 
-> *To be populated from source PDF.*
+Start every session with 2–3 of these timed drills. 60 seconds each. Do not edit. Do not judge. Just move.
 
-**Baseline logic (until PDF is parsed):**
+**Creative Foundations Quick Wins (Idea Generation tier):**
+- **3 Ideas in 30**: Set a timer. Create 3 ideas (verses, hooks, or lines) timed for 30 minutes each without editing. Just move.
+- **Minimal Toolkit**: Start with just 1 constraint (1 emotion, 1 image, 1 word) to force creative focus.
 
-The Ignition Workout is a series of timed, judgment-free writing drills (60 seconds each). The goal is not quality — it's volume and mental warm-up. Common formats:
-- Write 10 words for a sensation you can't name
-- Describe a memory using only one sense
-- Complete a stem line 5 different ways
-
-Run 2–3 drills before every experiment session. Output goes to scratch — it is never scored.
+**SongwriterCore Songstarter Drills (pick any, 60 seconds each):**
+- *Flashback Feels:* Name a part of your past you tend to romanticise. Write 5 lines about it without stopping.
+- *Everyday Signals:* What is one useless item you still hold onto? Write what it means without explaining it.
+- *Catching Yourself:* Write about a pattern you notice but repeat anyway.
+- *Things You Heard:* Write about words you replay even though they were small.
+- *Favorites:* What is your favourite feeling that doesn't last long? Write from inside it.
 
 ---
 
 ## Prompt Template
 
-> *To be populated from source PDF.*
-
-**Baseline prompt:**
 ```
-Pick one drill from the list below. Set a timer for 60 seconds. Write without stopping.
-Do not delete anything. When time is up, circle the most surprising phrase and move on.
+IGNITION WORKOUT — Session Start
 
-Drills:
-1. "The last time I _______ was the day I realized _______."
-2. Write 10 words that describe the color of grief.
-3. Describe a room using only what you could smell.
-4. Finish 5 ways: "It felt like _______."
-5. Write the worst possible chorus. Then write its opposite.
+Pick ONE drill. Set a timer for 60 seconds. Write without stopping.
+Do not delete. Do not evaluate. When time is up, circle one phrase
+that surprised you. That phrase is your entry point for the session.
+
+Drills (rotate — don't repeat the same one twice in a row):
+A. Name a part of your past you tend to romanticise. Write 5 lines.
+B. Describe a memory using only what you could smell.
+C. Write the last thing someone said that changed your mood. Write around it.
+D. What is one thing you notice every time you're outside? Write 8 lines starting there.
+E. Write about a moment that felt important for no obvious reason.
+F. Complete 5 ways: "The last time I ___________."
+G. Write 10 words that describe the colour of something you can't name.
 ```
 
 ---
 
 ## Scoring Anchor
 
-This module is not directly scored in `results.tsv`. It is a prerequisite step.
-The Researcher checks: did an Ignition Workout precede the experiment? (yes/no logged in Notes column)
+This module is not directly scored in `results.tsv`.
+The Researcher logs: "Ignition Workout completed: yes/no" in the Notes column.
+Sessions without a warmup consistently score 0.05–0.10 lower on Flow — this is the baseline evidence.
