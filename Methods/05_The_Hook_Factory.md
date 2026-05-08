@@ -1,53 +1,119 @@
 # 05 — The Hook Factory
 
-**Status:** PARTIAL — awaiting SongwriterCore_Write_Songs_That_Work.pdf
-**Source:** SongwriterCore 100 Songstarter Prompts (Things You Heard, Favorites, Comparison) · Creative Foundations Vol.2
-**Note:** SongwriterCore_Write_Songs_That_Work.pdf (>20MB) could not be parsed — this module likely contains the full Hook Factory technique from that book. To complete: compress the PDF to under 20MB and upload it.
-**Purpose:** Systematic construction of hooks — lines that are easy to sing, impossible to forget, and mean more every time.
+**Status:** ACTIVE
+**Source:** SongwriterCore — *Write Songs That Work* (Part 5)
+**Purpose:** Eight methods for building hooks — lines that are easy to sing, impossible to forget, and mean more every time.
 
 ---
 
-## Key Concepts
+## The 8 Methods
 
-A hook must pass three tests:
-1. **Hummability** — Can you hum the melody line with no words?
-2. **Memorability** — Can a stranger repeat it after one listen?
-3. **Depth** — Does it mean more every time you hear it in context?
+### Method 1: The Call & Response
+Structure the hook as a question the verse asks and the chorus answers — or vice versa.
 
-From Creative Foundations — the 4C baseline for hook work:
-> "Copy your loop across your project for 4 minutes, then Cut, Carve, and Connect the sections."
+- Verse poses the situation/question → Chorus delivers the emotional answer
+- Or: Chorus asks the question → Verse builds the context for why it can't be answered
 
-The hook is the north star line identified in the COPY step. If your COPY pick is strong enough to be the title, you have a hook. If not, run the Hook Factory before the 4C pass.
-
-**SongwriterCore insight (Things You Heard category):**
-The best hooks often come from things you actually heard — fragments of overheard speech, lines that sounded casual but landed hard, things said once that stuck for years. These are already hooks before you write them.
+**Exercise:** Write a 4-line verse ending on an open question. Write a chorus that answers it, then one that refuses to answer. Which is stronger?
 
 ---
 
-## Core Technique
+### Method 2: The Familiar Flip
+Take a well-known phrase and subvert it. Familiarity gets the listener in; the twist delivers the surprise.
 
-**Pre-Hook generation — mine the prompt categories for title candidates:**
+**The Speed Round — 10 flips in 10 minutes (one minute each):**
 
-From *Things You Heard* (these become title/hook candidates):
-- "Write about a comment that sounded normal but felt loaded."
-- "Write about words you replay even though they were small."
-- "What is something someone said once that still affects you?"
+| Original | Your flip |
+|---|---|
+| "What goes around comes around" | ___ |
+| "Love conquers all" | ___ |
+| "Money can't buy happiness" | ___ |
+| "Better late than never" | ___ |
+| "No pain, no gain" | ___ |
+| "Practice makes perfect" | ___ |
+| "Blood is thicker than water" | ___ |
+| "The grass is greener" | ___ |
+| "Absence makes the heart grow fonder" | ___ |
+| "Sticks and stones may break my bones" | ___ |
 
-From *Favorites* (these become hook angles):
-- "What is your favourite feeling that doesn't last long?"
-- "What is your favourite memory you never talk about?"
-- "Describe the favourite version of yourself."
+Run this weekly. It's a muscle.
 
-From *Catching Yourself* (confessional hook angles):
-- "Write about doing something you said you wouldn't."
-- "Write about the moment you knew you were the problem."
+---
 
-**The factory process:**
-1. Generate 5 candidate hook lines (no editing, just output)
-2. Apply the three tests to each
-3. Cut 3. You now have 2 candidates.
-4. Write a 4-bar chorus around each. Which one survives?
-5. The surviving one is your hook. Everything else in the song serves it.
+### Method 3: The Storytelling Method
+Build the hook as the emotional thesis of a specific story — not a universal statement. The more specific the story, the more universally it lands.
+
+1. Identify the one moment where everything changed
+2. Write the hook from *inside* that moment
+3. Verse tells the story leading to it; chorus is what it meant
+
+Key: The hook should feel like what you'd say to a friend when you finally explain what happened.
+
+---
+
+### Method 4: The Verse 2 Cheat Code
+Most writers run out of things to say in Verse 2. The cheat code: change the *perspective or time frame*, not the subject.
+
+Options:
+- Same situation, different POV (you → them → observer)
+- Same emotion, shifted time (morning after / a year later / before it happened)
+- Zoom in on one detail from Verse 1 you glossed over
+- Ask the question Verse 1 implied but didn't ask
+
+---
+
+### Method 5: The Replay Line
+The one line people sing alone in the car. Must pass 5 layers:
+
+| Layer | Test |
+|---|---|
+| **Echo-Pivot** | Say it 5x. Still want to keep repeating it? |
+| **Melody Lock** | Can you hum it after reading it twice? |
+| **Memory Grab** | Does it fit in one breath? |
+| **Micro-gap** | Does it leave something unresolved? |
+| **Compression** | If this was the only line someone remembered, would they get the song? |
+
+**Compression Sprint:** Describe the chorus situation in a full sentence. Rewrite it in 8 words or fewer. Don't summarize — compress. Repeat until it's inevitable.
+
+**Full Build:** Write 4 short phrases in 5 minutes. Run the best one through all 5 layers.
+
+---
+
+### Method 6: The Escape Plan
+Write what you would say if there were no consequences — the text you didn't send, the thing you said in your head but not out loud.
+
+The Escape Plan produces hooks that feel risky to sing. That's exactly why people can't stop.
+
+---
+
+### Method 7: The Wishlist
+A hook built from accumulation — a list of wants that adds up to an emotional portrait.
+
+**The Wishlist:** Write 10–15 things you want. Mix deliberately:
+- Tangible (phone, car, house)
+- Intangible (sunshine, time, silence)
+- Feelings (confidence, peace, being understood)
+- Moments (weekends in summer, Christmas morning)
+- Weird ones (a nap that actually fixes everything / a different playlist for each version of me)
+
+Circle 4–5 that fit the mood. Build them into the chorus.
+
+**The Absence Stack (inverse Wishlist):** Think of someone or something lost. List the small, specific, embarrassingly ordinary things that are gone now. Build the verse or chorus from those details — not from the loss itself.
+
+---
+
+### Method 8: The Loaded Question
+A hook that sounds simple but implies a complicated history. Doesn't need to be answered — just needs to make the listener feel something.
+
+Properties:
+- Sounds simple on the surface
+- Implies a complicated history
+- The listener projects their own answer onto it
+- Can end the song without resolution
+
+Shape examples: *Did we really try? · Was I the only one? · What if none of this was real?*
+
+**Exercise:** Write 10 loaded questions about one situation. The best one is usually #7–10 after the obvious ones are exhausted.
 
 ---
 
@@ -56,38 +122,27 @@ From *Catching Yourself* (confessional hook angles):
 ```
 HOOK FACTORY — Construction Pass
 
-Song thesis: [one sentence — what is this song actually about?]
-Emotional frequency: [from Feeling Machine step]
-Title candidate: [working title or phrase]
+Song thesis: ___________
+Emotional frequency: ___________
 
-GENERATE 5 HOOKS NOW (no stopping, no evaluating):
-1. ___________
-2. ___________
-3. ___________
-4. ___________
-5. ___________
+Method: [ ] Call & Response  [ ] Familiar Flip   [ ] Storytelling
+        [ ] Verse 2 Cheat    [ ] Replay Line     [ ] Escape Plan
+        [ ] Wishlist         [ ] Loaded Question
 
-THREE-TEST EVALUATION (apply to each):
-- Hummable without words? (y/n)
-- Repeatable after one listen? (y/n)
-- Contains the emotional thesis? (y/n)
-- 6–9 syllables with natural stress? (y/n)
-- Works as the last line someone hears? (y/n)
+5 hook candidates (no editing):
+1. ___  2. ___  3. ___  4. ___  5. ___
 
-Score each hook (0–5 tests passed). Keep top 2.
+Replay Line 5-layer test on top candidate:
+Echo-Pivot: y/n | Melody Lock: y/n | Memory Grab: y/n
+Micro-gap: y/n  | Compression: y/n | Score: ___/5
 
-PRESSURE TEST:
-Write a 4-bar chorus around hook A: ___________
-Write a 4-bar chorus around hook B: ___________
-
-Which chorus needs the hook more? That hook wins.
+Write 4-bar chorus around the top scorer.
 ```
 
 ---
 
 ## Scoring Anchor
 
-The Hook Factory directly targets **Hook strength (25%)** and **Structural coherence (20%)**.
-The Critic's core test: Read only the chorus. Does it carry the full emotional weight of the song without the verses?
-Benchmark: Hook score ≥ 0.75 means the factory process was applied correctly.
-A hook scoring below 0.50 usually means the emotional thesis wasn't locked in before generation.
+Targets **Hook strength (25%)** and **Structural coherence (20%)**.
+Replay Line test is the most reliable predictor of high hook scores.
+Hook scoring below 0.50 → return to Feeling Machine; emotional thesis wasn't locked before generation.

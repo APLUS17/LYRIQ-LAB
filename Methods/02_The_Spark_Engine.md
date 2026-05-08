@@ -1,67 +1,77 @@
 # 02 — The Spark Engine
 
 **Status:** ACTIVE
-**Source:** SongwriterCore 100 Songstarter Prompts (all 10 categories) · Creative Foundations Vol.2 — Idea Generation stage
-**Note:** SongwriterCore_Write_Songs_That_Work.pdf (>20MB) could not be parsed — additional technique may exist there. Upload a compressed version when available.
-**Purpose:** The primary generative system. The Lyricist's main tool. Produces raw material via themed emotional prompts before any editing or structuring occurs.
+**Source:** SongwriterCore — *Write Songs That Work* (Part 1) · SongwriterCore 100 Songstarter Prompts
+**Purpose:** The primary generative system. Produces raw material before any editing. Four named methods — use one per session.
 
 ---
 
-## Key Concepts
+## The 4 Methods
 
-From Creative Foundations — Idea Generation stage:
-> "Your sketching phase. No pressure. Just output. The more ideas you generate, the better your instincts become."
+### Method 1: Inspiration Banking
+Collect and store raw material before you need it. Build a personal vault of overheard phrases, screenshots of captions or texts that hit different, voice memos, observations from daily life. Draw from the bank when you sit down to write — you're never starting from zero.
 
-- Volume before quality. The 10:1 ratio applies: generate 10 lines to find 1 great one.
-- Do not self-edit during generation. The editor is the Architect's job (4C Framework).
-- Anchor every generation session to a **specific emotional prompt** — not a mood, a question.
+**Exercise:** Open your phone's notes or camera roll. Find 3 things you saved that have an emotional charge. Write one line per item — don't explain it, write *from* it.
 
 ---
 
-## Core Technique
+### Method 2: The Angle Shaping
+Every song has a subject. Angle Shaping is choosing *which corner* of that subject to enter from.
 
-The Spark Engine uses the SongwriterCore prompt categories as fuel. Each category targets a different emotional frequency:
+Instead of writing about "heartbreak" — pick the angle:
+- The relief of finally crying vs. the numbness of not being able to
+- The moment you realized it was over vs. the moment you pretended it wasn't
+- Writing from the other person's point of view
 
-| Category | Emotional Frequency | Best for |
-|---|---|---|
-| **Flashback Feels** | Nostalgia, unresolved past | Verses with specific memory anchors |
-| **Fear and Pressure** | Anxiety, avoidance, courage | Pre-chorus tension builds |
-| **Love and Longing** | Connection, withdrawal, chase | Chorus-level emotional statements |
-| **Identity and Growing Up** | Self-perception, change, acceptance | Bridge material |
-| **Life and the World** | Systemic observation, dailiness | Verse texture and grounding |
-| **Everyday Signals** | Sensory detail, the overlooked | Imagery lines, specific observations |
-| **Undefined Connections** | Ambiguity, mixed signals, in-between | Songs about liminal situations |
-| **Catching Yourself** | Self-awareness, contradiction | Confessional, self-implicating hooks |
-| **Things You Heard** | Memory of language, loaded words | Title lines and hook candidates |
-| **Small Things You Noticed** | Witness perspective, the peripheral | Specific, cinematic verse images |
-| **Comparison** | Shared pressure, generational weight | Songs that feel universally personal |
-| **Generational Observations** | Collective experience | Anthemic, community-feeling material |
-| **Favorites** | Personal specificity, intimacy | Deeply personal verse/chorus combos |
+**Formula:** Subject → List 5 possible angles → Pick the least obvious one that still feels true.
+
+---
+
+### Method 3: Stream of Consciousness
+**Steps:**
+1. Pick a trigger word or emotion
+2. Set a timer for 3–5 minutes
+3. Write nonstop — don't lift the pen
+4. When time is up, circle the strongest phrase
+
+Rules: Don't cross anything out. Don't re-read while writing. If stuck, write "I don't know what to write" until something else comes. The best line is usually buried in the middle.
+
+---
+
+### Method 4: "Title First" Songwriting
+**Formula: Title → Theme → Support**
+
+Find a title that sparks curiosity or an image. That becomes your theme. Everything in the song supports it.
+
+| Type | Examples |
+|---|---|
+| Time-Based | 3am · last summer · closing time · before sunrise |
+| Visual Imagery | shoes by the door · dirty dishes in the sink · empty bus stop |
+| Action Titles | walking away · staying up · turn around · call me back |
+| Questions & Statements | what if? · did we really try? · you knew better |
+| Contrasting Words | light & shadow · broken & whole · love & war |
+| Single Word | wanderer · grounded · retrospective · momentum |
 
 ---
 
 ## Prompt Template
 
 ```
-SPARK ENGINE — Generation Session
+SPARK ENGINE — Session
 
-Step 1: Pick ONE category from the list above.
-Step 2: Pick ONE prompt from that category.
-Step 3: Write 10 lines responding to it. No stopping. No editing.
+Choose ONE method:
+[ ] Inspiration Banking — mine your saved material
+[ ] Angle Shaping — list 5 angles, pick the least obvious
+[ ] Stream of Consciousness — trigger word + 3-5 min timer
+[ ] Title First — title → theme → support
 
-Rules:
-- Include at least 3 physical/sensory images.
-- At least one line must surprise you.
-- Do not use the word "feel" or "heart."
-- Output everything.
-
-After generation: circle the 2 strongest lines.
-Those are your seeds for the Architect pass.
+Output: 8–12 raw lines minimum. No editing during generation.
+After: Circle the 2 strongest lines. Hand to Architect.
 ```
 
 ---
 
-## Full Prompt Bank (SongwriterCore Categories)
+## Full Prompt Bank (SongwriterCore — 130 Prompts)
 
 ### FLASHBACK FEELS
 1. Name a part of your past you tend to romanticise.
@@ -223,6 +233,6 @@ Those are your seeds for the Architect pass.
 
 ## Scoring Anchor
 
-Spark Engine output is scored primarily on **Imagery (30%)** and **Flow (25%)**.
-High-yield session: at least 2 lines from the raw output survive the 4C pass unchanged.
-The Researcher tracks: which prompt category produced the highest-scoring experiments over time.
+Scored on **Imagery (30%)** and **Flow (25%)**.
+High-yield session: at least 2 raw lines survive the 4C pass unchanged.
+Researcher tracks which method + prompt category produces highest scores over time.

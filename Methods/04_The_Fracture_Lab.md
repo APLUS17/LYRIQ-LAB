@@ -1,98 +1,119 @@
 # 04 — The Fracture Lab
 
 **Status:** ACTIVE
-**Source:** SongwriterCore 100 Songstarter Prompts (Everyday Signals, Catching Yourself, Small Things You Noticed, Things You Heard) · Creative Foundations Vol.2 — Idea Review stage
-**Note:** SongwriterCore_Write_Songs_That_Work.pdf may contain dedicated fracture technique. Upload when available.
-**Purpose:** Breaking predictable phrases and reconstructing them into unexpected, memorable language. Applied after raw generation — not before.
+**Source:** SongwriterCore — *Write Songs That Work* (Parts 3 & 4) · Creative Foundations Vol.2
+**Purpose:** Eight methods for breaking predictable phrases and sharpening language. Applied after raw generation — the Architect's toolkit.
 
 ---
 
-## Key Concepts
+## Part 3: Fracture Methods (6)
 
-From Creative Foundations — Idea Review:
-> "You zoom out. You listen objectively. You remove friction and refine what matters. This is where your signature sound gets shaped."
+### Method 1: The Shiny/Honest Method
+Every lyric has a shiny version (polished, safe) and an honest version (raw, specific, slightly uncomfortable). The honest version is almost always better.
 
-The Fracture Lab is the aggressive version of this. It deliberately breaks what's working to find what's better.
+**Process:** Write the shiny version first. Then ask: "What am I *actually* trying to say that I'm afraid to say?" Write that.
 
-SongwriterCore's observational categories (Everyday Signals, Small Things You Noticed, Catching Yourself) are fracture fuel — they train you to see the unexpected angle before you write, so the fracture is earned rather than random.
-
-Core principle: **The best lyric lives one step past "too weird to use."**
-
----
-
-## Core Technique
-
-**Four fracture operations — apply to any line that feels "fine but not great":**
-
-**SUBSTITUTE** — Replace the expected word with its opposite, its cause, or its cousin.
-> "I still love you" → "I still set your alarm" (the cause of love, not the statement of it)
-
-**INVERT** — Flip the cause and effect, or the point of view.
-> "You left and I fell apart" → "I started falling apart before you knew you were leaving"
-
-**REMOVE** — Delete the verb. Delete the subject. What fragment survives and still means something?
-> "You never said goodbye" → "Never said. Goodbye."
-
-**COLLIDE** — Force the emotional content into an image from a completely different context.
-> Loneliness → "Like being the last person to leave a party you didn't want to attend"
+- Shiny: "I still love you even though it hurts"
+- Honest: "I googled your name last Tuesday"
 
 ---
 
-## SongwriterCore Fracture Fuel Prompts
+### Method 2: The Contradiction Mirror
+Put two truths that seem to conflict in the same line. Real human experience is contradictory — lyrics that capture this feel alive.
 
-**Everyday Signals (observation training):**
-- What is one useless item you still hold onto?
-- Write about a moment that felt important for no obvious reason.
-- What is something ordinary that feels symbolic to you?
-- Write about a moment that felt familiar even though it was new.
+**Structure:** [Truth A] + [Truth B that contradicts it]
+- "I'm glad you're gone / I keep your hoodie on the door"
+- "I don't miss you / I drove past your street again"
 
-**Catching Yourself (self-implication):**
-- Write about a pattern you notice but repeat anyway.
-- Write about realising too late what you were doing.
-- Write about the moment you knew you were the problem.
-- Have you ever ignored your own advice?
+**Exercise:** Write 5 personal contradictions about one situation. Build a line from each.
 
-**Small Things You Noticed (witness perspective):**
-- Write about seeing someone try to hide how they felt.
-- Write about watching someone leave without a goodbye.
-- Write about a moment you witnessed but were not part of.
-- What is something visual you cannot get out of your head?
+---
 
-**Things You Heard (language memory):**
-- Write about a comment that sounded normal but felt loaded.
-- Write about words you replay even though they were small.
-- Write about a joke that landed more seriously than intended.
-- Write about hearing something at the wrong time.
+### Method 3: The Overflow Line
+The feeling is too big for one line — let it spill past the edge. Breaks the expected rhythmic boundary to create emotional pressure. Use sparingly — one per verse. Only works because everything else is contained.
+
+---
+
+### Method 4: The Hot Topic Stance
+Write from a bold, specific opinion. Songs with a clear POV create stronger listener identification than songs that try to speak for everyone.
+
+| Stance | How |
+|---|---|
+| **The Anti-Gatekeeper** | Call out a behavior everyone follows but you find performative |
+| **The Villain Arc** | Take a trait people judge you for and flip it as strength |
+| **The Trend Reject** | Find a popular norm and write why you'd rather do the opposite |
+| **The Boundary Flex** | Frame a "red flag" habit as your highest form of self-respect |
+
+The stance must be *yours* — not a generic take. The more personal, the more universally it lands.
+
+---
+
+### Method 5: The Affirmations Method
+Write songs that position the listener as someone who has already won — not hoping to. Declarative, not aspirational.
+
+**The Blackout Frame:** Describe the surroundings of the target → frame the listener as the only person who matters in that space.
+
+**The Discipline Code:** Describe a small choice/ritual that proves you've won → state your boundary as fact, not request.
+
+---
+
+### Method 6: The Bad Guy
+Write from the perspective of the person who hurt you, or write yourself as the cause of the pain. Forces specificity and breaks the victim/hero binary.
+
+**Exercise:** Take an existing draft written from one POV. Write one verse from the opposite perspective.
+
+---
+
+## Part 4: Word Sharpening (2)
+
+### Method 7: The Conversational Technique
+Write the lyric the way you'd actually say it — not the way a "song" is supposed to sound.
+
+**The Voice Note:** Make a voice note for a friend about what's been on your mind today. Don't write lyrics — write exactly what you'd say. Pull the lyric from that.
+
+**The Question Spiral:** Write a verse made entirely of questions, each building on the last:
+> *Do you ever replay that night? / Or is that just me being dumb? / Like, did it mean something to you? / Or was I the only one?*
+
+---
+
+### Method 8: The Zoom-in Method
+Move from wide shot → mid shot → close-up. The close-up is where the lyric lives.
+
+- **Level 1 (Wide):** "I miss you"
+- **Level 2 (Mid):** "I miss you most at night"
+- **Level 3 (Close-up):** "I still set two alarms"
+
+**Test:** Could someone else have written your Level 3? If yes, zoom in more.
+
+| Exercise | How |
+|---|---|
+| **Three-Level Zoom** | Pick any emotion. Write Level 1, 2, then 3. |
+| **Camera Roll Dig** | Open your phone. Pick a photo that makes you feel something you can't name. Write the detail as a lyric line. |
+| **Habit Map** | For each emotion, write the weird specific thing you *do* — not what you think, what you do. (When I'm anxious I ___ / When I'm missing someone I ___) |
+| **The Overheard Line** | Something someone said that stuck: write the sentence, who said it and where, why it stuck, then the verse. |
 
 ---
 
 ## Prompt Template
 
 ```
-FRACTURE LAB — Phrase Mutation
+FRACTURE LAB — Mutation Pass
 
-Input line: [paste the "fine but not great" line here]
-Original emotion: [what it's trying to say]
+Input line: ___________
 
-Apply each operation:
-1. SUBSTITUTE: Replace [key word] with its cause, opposite, or cousin.
-   Result: ___________
-2. INVERT: Flip cause/effect or POV.
-   Result: ___________
-3. REMOVE: Delete verb. Delete subject. What survives?
-   Result: ___________
-4. COLLIDE: Transport this emotion into a completely different context.
-   Result: ___________
+Choose method:
+[ ] Shiny→Honest    [ ] Contradiction Mirror   [ ] Overflow Line
+[ ] Hot Topic Stance  [ ] Affirmations         [ ] Bad Guy
+[ ] Conversational    [ ] Zoom-in (L1→L2→L3)
 
-Keep the result that surprises you most.
-If none surprise you, the original line may already be the ceiling — move on.
+Mutated version: ___________
+Keep if: surprises you AND still serves the emotional thesis.
 ```
 
 ---
 
 ## Scoring Anchor
 
-Fracture Lab improvements show up primarily in **Imagery (30%)** scores.
-The Critic looks for: at least one phrase per draft that could not have been predicted from the setup.
-A reverted fracture mutation usually means the operation was arbitrary rather than earned.
-Earned fractures: the result surprises you AND still serves the emotional thesis.
+Improvements show up in **Imagery (30%)**.
+Critic looks for: at least one phrase per draft unpredictable from the setup.
+Zoom-in + Conversational → improve Flow. Hot Topic Stance → raises Hook strength when the opinion is owned.
