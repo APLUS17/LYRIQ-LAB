@@ -131,3 +131,53 @@ When PDFs are uploaded to the project root:
 2. Fill in: Key Concepts, Core Technique, Prompt Template, Scoring Anchor.
 3. Update the `Status` field from `AWAITING PDF UPLOAD` to `ACTIVE`.
 4. Commit: `Methods: Populated [module name] from PDF`
+
+---
+
+## Agent Operating Architecture (3-Layer System)
+
+> Full instructions also in `AGENTS.md` and `GEMINI.md` for other AI environments.
+
+You operate within a 3-layer architecture that separates intent from execution:
+
+**Layer 1 — Directive (What to do)**
+- SOPs in `Methods/` are your directives.
+- They define goals, inputs, tools to use, outputs, and edge cases.
+- Treat them like instructions from a skilled collaborator.
+
+**Layer 2 — Orchestration (You)**
+- Your job: intelligent routing between directives and execution tools.
+- Read the Methods SOP, decide what to call in what order, handle errors.
+- Don't try to do everything manually — route to scripts when they exist.
+
+**Layer 3 — Execution (Deterministic tools)**
+- Python scripts or deterministic operations go in `execution/` if created.
+- Environment variables and API keys in `.env` (never committed).
+- Reliable, testable, fast. Prefer scripts over manual steps.
+
+**Why this works:** If you do everything yourself, errors compound. 90% accuracy per step = 59% success over 5 steps. Push complexity into deterministic code; focus yourself on decision-making.
+
+### Operating Principles
+
+1. **Check for tools first.** Before writing a script, check `execution/` for existing ones.
+2. **Self-anneal when things break.** Read the error → fix it → test → update the directive with what you learned.
+3. **Update Methods as you learn.** When you discover better approaches, API constraints, or edge cases — update the relevant `Methods/` file. Directives are living documents.
+
+### Self-Annealing Loop
+
+When something breaks:
+1. Fix it
+2. Update the tool/script
+3. Test it
+4. Update the Methods directive with the new flow
+5. System is now stronger
+
+### File Organization
+
+- `Methods/` — Directives (SOPs). The instruction set.
+- `Experiments/` — Intermediate outputs. Can be regenerated.
+- `Genome/` — The active instruction set (the Brain).
+- `Benchmarks/` — Reference outputs and scoring rubric.
+- `results.tsv` — The persistent log. Never delete rows.
+- `.env` — API keys and environment variables (never committed).
+- `.tmp/` — Temporary processing files if needed (never committed).
