@@ -5,3 +5,6 @@ Timestamp	SOP	Version	Hypothesis	Imagery	Flow	Hook	Structure	Score	Notes
 2026-05-08T12:00:00Z	02_The_Spark_Engine	0.1.1	Adding whisper-test gate to spark_engine will improve Flow	0.75	0.70	0.65	0.68	0.70	Draft A — Whisper-gate raw output; hometown/layaway
 2026-05-08T12:00:00Z	02_The_Spark_Engine	0.1.1	Adding whisper-test gate to spark_engine will improve Flow	0.80	0.80	0.78	0.80	0.80	Draft B — 4C pass; layaway couplet elevated to chorus
 2026-05-08T12:00:00Z	02_The_Spark_Engine	0.1.1	Adding whisper-test gate to spark_engine will improve Flow	0.80	0.73	0.82	0.76	0.78	Draft C — Title First "Still Around" second-person; run_score=0.76; KEEP
+2026-05-08T18:00:00Z	02_The_Spark_Engine	0.1.2	Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength	0.80	0.75	0.85	0.75	0.79	Draft A — Title-First raw output
+2026-05-08T18:00:00Z	06_The_4C_Framework	0.1.2	Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength	0.85	0.82	0.88	0.85	0.85	Draft B — 4C pass on Draft A
+2026-05-08T18:00:00Z	05_The_Hook_Factory	0.1.2	Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength	0.80	0.78	0.90	0.80	0.82	Draft C — Escape Plan alt angle; run_score=0.82; KEEP

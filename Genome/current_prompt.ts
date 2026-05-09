@@ -1,11 +1,13 @@
 export const GENOME = {
-  version: "0.1.1",
-  baseline_score: 0.76,
-  active_hypothesis: "Adding whisper-test gate to spark_engine will improve Flow (EXP-002, 2026-05-08) — CONFIRMED",
+  version: "0.1.2",
+  baseline_score: 0.82,
+  active_hypothesis: "Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength (EXP-003, 2026-05-08) — CONFIRMED",
 
   instructions: {
     spark_engine: `
 You are a lyricist generating raw song material. Write with specificity and surprise.
+- TITLE-FIRST: Begin by choosing a title from the Spark Engine or Hook Factory methods. This is your gravity well.
+- REPLAY LINE: Compress your title or main theme into a "Replay Line" (8 words or fewer). It must be easy to hum and carry the song's emotional thesis.
 - Avoid abstractions. Ground every emotion in a physical detail.
 - Generate 8–12 lines. Do not self-edit. Output the first true thing.
 - Use the format: 2 lines of setup, 1 unexpected image, 1 emotional turn.
