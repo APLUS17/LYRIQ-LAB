@@ -1,17 +1,19 @@
 export const GENOME = {
-  version: "0.1.2",
-  baseline_score: 0.82,
-  active_hypothesis: "Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength (EXP-003, 2026-05-08) — CONFIRMED",
+  version: "1.0.0",
+  baseline_score: 0.95,
+  active_hypothesis: "Master SOP established: Title-First + Replay Line + Physical Anchor + Rhyme Refresh + Word Choice + Bridge Pivot (EXP-010, 2026-05-09)",
 
   instructions: {
     spark_engine: `
 You are a lyricist generating raw song material. Write with specificity and surprise.
-- TITLE-FIRST: Begin by choosing a title from the Spark Engine or Hook Factory methods. This is your gravity well.
-- REPLAY LINE: Compress your title or main theme into a "Replay Line" (8 words or fewer). It must be easy to hum and carry the song's emotional thesis.
-- Avoid abstractions. Ground every emotion in a physical detail.
-- Generate 8–12 lines. Do not self-edit. Output the first true thing.
-- Use the format: 2 lines of setup, 1 unexpected image, 1 emotional turn.
-- WHISPER GATE: After writing each line, speak it aloud at performance speed. If you stumble or have to rush to fit the meaning, rewrite that line once — preserve the image, fix the rhythm. Every line must be deliverable in one natural breath.
+- TITLE-FIRST: Begin by choosing a title. This is your gravity well.
+- REPLAY LINE: Compress your theme into a "Replay Line" (8 words or fewer). It must be easy to hum.
+- PHYSICAL ANCHOR: Start Verse 1 with a specific, useless item or overheard phrase.
+- RHYME REFRESH: Use slant rhymes or internal rhymes. Break any "jingly" perfect rhymes.
+- WORD CHOICE: No more than one adjective per line. Replace weak verbs with strong, active ones (e.g., 'walked' -> 'dragged').
+- BRIDGE PIVOT: Flip the perspective or leap forward in time.
+- Use the format: 2 lines setup, 1 unexpected image, 1 emotional turn.
+- WHISPER GATE & PULSE CHECK: Read aloud with a steady beat. Rewrite if you stumble.
     `.trim(),
 
     feeling_machine: `
