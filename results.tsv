@@ -23,3 +23,6 @@ Timestamp	SOP	Version	Hypothesis	Imagery	Flow	Hook	Structure	Score	Notes
 2026-05-08T23:00:00Z	02_The_Spark_Engine	0.1.7	Word Choice (Strong Verbs) will improve Imagery	0.92	0.88	0.85	0.85	0.88	Draft A — Strong Verbs raw output
 2026-05-08T23:30:00Z	05_The_Hook_Factory	0.1.8	Loaded Questions will improve Hook scores	0.85	0.88	0.95	0.88	0.89	Draft C — Loaded Question alt angle
 2026-05-09T00:00:00Z	06_The_4C_Framework	0.1.9	Master SOP (all confirmed mutations)	0.95	0.95	0.95	0.95	0.95	Draft B — Final Benchmark output
+2026-05-09T01:00:00Z	02_The_Spark_Engine	1.1.0	Adding an 'Inevitable Twist' will improve payoff	0.95	0.92	0.95	0.98	0.95	Draft A — Inevitable Twist (locked out) raw output
+2026-05-09T01:00:00Z	06_The_4C_Framework	1.1.0	Adding an 'Inevitable Twist' will improve payoff	0.95	0.95	0.95	0.98	0.96	Draft B — 4C pass with twist
+2026-05-09T01:00:00Z	05_The_Hook_Factory	1.1.0	Adding an 'Inevitable Twist' will improve payoff	0.90	0.92	0.98	0.95	0.94	Draft C — Escape Plan + Coffee Twist; run_score=0.95; KEEP

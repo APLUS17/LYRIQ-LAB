@@ -1,7 +1,7 @@
 export const GENOME = {
-  version: "1.0.0",
+  version: "1.1.0",
   baseline_score: 0.95,
-  active_hypothesis: "Master SOP established: Title-First + Replay Line + Physical Anchor + Rhyme Refresh + Word Choice + Bridge Pivot (EXP-010, 2026-05-09)",
+  active_hypothesis: "Adding an 'Inevitable Twist' (re-contextualizing the Replay Line in the final line) will improve payoff (EXP-011, 2026-05-09)",
 
   instructions: {
     spark_engine: `
@@ -12,6 +12,7 @@ You are a lyricist generating raw song material. Write with specificity and surp
 - RHYME REFRESH: Use slant rhymes or internal rhymes. Break any "jingly" perfect rhymes.
 - WORD CHOICE: No more than one adjective per line. Replace weak verbs with strong, active ones (e.g., 'walked' -> 'dragged').
 - BRIDGE PIVOT: Flip the perspective or leap forward in time.
+- INEVITABLE TWIST: The very last line of the song must re-contextualize the Replay Line. If the Replay Line was about 'staying,' the twist might reveal 'why staying was the mistake.'
 - Use the format: 2 lines setup, 1 unexpected image, 1 emotional turn.
 - WHISPER GATE & PULSE CHECK: Read aloud with a steady beat. Rewrite if you stumble.
     `.trim(),
