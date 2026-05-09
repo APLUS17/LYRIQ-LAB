@@ -5,3 +5,21 @@ Timestamp	SOP	Version	Hypothesis	Imagery	Flow	Hook	Structure	Score	Notes
 2026-05-08T12:00:00Z	02_The_Spark_Engine	0.1.1	Adding whisper-test gate to spark_engine will improve Flow	0.75	0.70	0.65	0.68	0.70	Draft A — Whisper-gate raw output; hometown/layaway
 2026-05-08T12:00:00Z	02_The_Spark_Engine	0.1.1	Adding whisper-test gate to spark_engine will improve Flow	0.80	0.80	0.78	0.80	0.80	Draft B — 4C pass; layaway couplet elevated to chorus
 2026-05-08T12:00:00Z	02_The_Spark_Engine	0.1.1	Adding whisper-test gate to spark_engine will improve Flow	0.80	0.73	0.82	0.76	0.78	Draft C — Title First "Still Around" second-person; run_score=0.76; KEEP
+2026-05-08T18:00:00Z	02_The_Spark_Engine	0.1.2	Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength	0.80	0.75	0.85	0.75	0.79	Draft A — Title-First raw output
+2026-05-08T18:00:00Z	06_The_4C_Framework	0.1.2	Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength	0.85	0.82	0.88	0.85	0.85	Draft B — 4C pass on Draft A
+2026-05-08T18:00:00Z	05_The_Hook_Factory	0.1.2	Mandating 'Title-First' generation and a 'Replay Line' compression test will improve Hook Strength	0.80	0.78	0.90	0.80	0.82	Draft C — Escape Plan alt angle; run_score=0.82; KEEP
+2026-05-08T19:00:00Z	02_The_Spark_Engine	0.1.3	Integrating a 'Pulse Check' (tapping a steady beat) into the Whisper Gate will improve Flow	0.78	0.85	0.80	0.78	0.80	Draft A — Pulse Check raw output
+2026-05-08T19:00:00Z	06_The_4C_Framework	0.1.3	Integrating a 'Pulse Check' (tapping a steady beat) into the Whisper Gate will improve Flow	0.82	0.90	0.82	0.82	0.84	Draft B — 4C pass on Draft A
+2026-05-08T19:00:00Z	04_The_Fracture_Lab	0.1.3	Integrating a 'Pulse Check' (tapping a steady beat) into the Whisper Gate will improve Flow	0.80	0.88	0.85	0.80	0.83	Draft C — Contradiction Mirror alt angle; run_score=0.82; KEEP
+2026-05-08T20:00:00Z	02_The_Spark_Engine	0.1.4	Adding a 'Bridge Pivot' constraint (flip perspective or leap time) will improve Structural Coherence	0.82	0.82	0.80	0.88	0.83	Draft A — Bridge Pivot (time leap) raw output
+2026-05-08T20:00:00Z	06_The_4C_Framework	0.1.4	Adding a 'Bridge Pivot' constraint (flip perspective or leap time) will improve Structural Coherence	0.85	0.85	0.85	0.92	0.86	Draft B — 4C pass on Draft A
+2026-05-08T20:00:00Z	05_The_Hook_Factory	0.1.4	Adding a 'Bridge Pivot' constraint (flip perspective or leap time) will improve Structural Coherence	0.82	0.80	0.88	0.90	0.84	Draft C — Perspective Shift alt angle; run_score=0.84; KEEP
+2026-05-08T21:00:00Z	02_The_Spark_Engine	0.1.5	Mandating a 'Physical Anchor' in Verse 1 will improve Imagery	0.88	0.80	0.82	0.85	0.84	Draft A — Physical Anchor (snow globe) raw output
+2026-05-08T21:00:00Z	06_The_4C_Framework	0.1.5	Mandating a 'Physical Anchor' in Verse 1 will improve Imagery	0.90	0.85	0.85	0.88	0.87	Draft B — 4C pass on Draft A
+2026-05-08T21:00:00Z	03_The_Feeling_Machine	0.1.5	Mandating a 'Physical Anchor' in Verse 1 will improve Imagery	0.85	0.78	0.82	0.85	0.83	Draft C — 5 Senses alt angle; run_score=0.85; KEEP
+2026-05-08T22:00:00Z	02_The_Spark_Engine	0.1.6	Adding a 'Rhyme Refresh' constraint (slant/internal rhymes only) will improve Hook Strength and Flow	0.85	0.88	0.85	0.85	0.86	Draft A — Rhyme Refresh (slant rhymes) raw output
+2026-05-08T22:00:00Z	06_The_4C_Framework	0.1.6	Adding a 'Rhyme Refresh' constraint (slant/internal rhymes only) will improve Hook Strength and Flow	0.88	0.92	0.88	0.90	0.89	Draft B — 4C pass on Draft A
+2026-05-08T22:00:00Z	04_The_Fracture_Lab	0.1.6	Adding a 'Rhyme Refresh' constraint (slant/internal rhymes only) will improve Hook Strength and Flow	0.82	0.85	0.85	0.85	0.84	Draft C — Shiny -> Honest alt angle; run_score=0.86; KEEP
+2026-05-08T23:00:00Z	02_The_Spark_Engine	0.1.7	Word Choice (Strong Verbs) will improve Imagery	0.92	0.88	0.85	0.85	0.88	Draft A — Strong Verbs raw output
+2026-05-08T23:30:00Z	05_The_Hook_Factory	0.1.8	Loaded Questions will improve Hook scores	0.85	0.88	0.95	0.88	0.89	Draft C — Loaded Question alt angle
+2026-05-09T00:00:00Z	06_The_4C_Framework	0.1.9	Master SOP (all confirmed mutations)	0.95	0.95	0.95	0.95	0.95	Draft B — Final Benchmark output
